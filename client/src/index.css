@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: Prompt;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Prompt';
+  src: local('Prompt'), url(./fonts/Prompt-Regular.ttf) format('truetype');
+}

@@ -1,0 +1,119 @@
+.headbar {
+  display: flex;
+  justify-content: center;
+  border-radius: 0px;
+  padding: 1.5% 0% 1.5% 0%;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+}
+
+.nav-menu {
+  display: flex;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  padding: 1.5% 2% 1.5% 0%;
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+.party {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.card-image .card-content {
+  width: 300px;
+}
+
+.card {
+  border-radius: 5%;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  width: 300px;
+  min-width: 300px;
+}
+
+.party-name {
+  padding: 0rem 0.5rem 0.5rem 0.5rem;
+  border-bottom: 2px solid grey;
+}
+
+.party-limit {
+  padding: 0.5rem 0.5rem 3rem 0.5rem;
+}
+
+.party-join {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+}
+
+.img {
+  border-radius: 5% 5% 0% 0%;
+}
+
+.joined {
+  color: green;
+}
+
+.full {
+  color: red;
+}
+
+.nav-item label:hover {
+  cursor: pointer;
+}
+
+.nav-menu-mobile {
+  display: none;
+}
+
+.burger {
+  width: 25px;
+  height: 2px;
+  background-color: grey;
+  margin: 6px 0;
+}
+
+.burger-menu {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .nav-menu {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 3%;
+    top: 0.5%;
+  }
+  .nav-menu-mobile {
+    flex-flow: column nowrap;
+    background-color: #c4c4c4;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 150px;
+    z-index: 100;
+    padding-top: 0.5rem;
+  }
+
+  a.nav-item {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .card {
+    margin-right: 0rem;
+  }
+}

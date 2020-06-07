@@ -1,0 +1,32 @@
+.input-text {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-family: 'Prompt';
+  font-size: 1rem;
+}
+
+.button {
+    background-color: #C4C4C4 !important;
+    font-family: 'Prompt';
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 200px;
+}
+
+.input{
+    font-family: 'Prompt';
+}
+
+.main {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}

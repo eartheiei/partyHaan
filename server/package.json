@@ -1,0 +1,23 @@
+{
+  "name": "partyhaan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Rattasat Sittimongkol",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^7.4.2",
+    "sequelize": "^4.38.0",
+    "mysql2": "^1.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
